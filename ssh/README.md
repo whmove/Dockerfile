@@ -1,5 +1,7 @@
-<br/>dockerfiles-centos-ssh
+dockerfiles-centos-ssh
+======
 Building & Running
+------
 Copy the sources to your docker host and build the container:
 
 # docker build -rm -t <username>/ssh:centos6 .
