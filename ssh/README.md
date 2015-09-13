@@ -15,4 +15,5 @@ Get the port that the container is listening on:
 		8c82a9287b23        <username>/ssh:centos6   /usr/sbin/sshd -D   4 seconds ago       Up 2 seconds        0.0.0.0:49154->22/tcp   mad_mccarthy        
 To test, use the port that was just located:
 
-		# ssh -p xxxx user@localhost 
+		# ssh -p xxxx user@localhost
+
