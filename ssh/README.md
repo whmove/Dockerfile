@@ -9,6 +9,8 @@ To run:
 ------
 
 	# docker run -d -p 22 <username>/ssh:centos6
+	# or
+	# docker run -d -P <username>/ssh:centos6
 Get the port that the container is listening on:
 ------
 
