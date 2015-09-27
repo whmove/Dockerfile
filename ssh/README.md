@@ -8,9 +8,9 @@ Copy the sources to your docker host and build the container:
 To run:
 ------
 
-	# docker run -d -p 22 <username>/ssh:centos6
+	# docker run -d -p 22 --name=ssh <username>/ssh:centos6
 	# or
-	# docker run -d -P <username>/ssh:centos6
+	# docker run -d -P --name=ssh <username>/ssh:centos6
 Get the port that the container is listening on:
 ------
 
